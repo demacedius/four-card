@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.slogan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 45px;
+    color: hsl(229, 6%, 66%);
+}
+
+.slogan span{
+    display: flex;
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.base_line{
+    text-align: center;
+    margin-top: 35px;
+    color: hsl(229,6%,66%);
+    font-size: 15px;
+}
+
+.card_container{
+    display: grid;
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    margin-top:60px;
+}
+
+.card_left{
+    margin: 0.75em 0.75em;
+    padding: 1.5em;
+    width: 20em;
+    height: 13.5em;
+    background: #fff ;
+    border-top: solid 3px hsl(180, 62%, 55%);
+    border-radius: 8px;
+    box-shadow: 0em 0.5em 1em rgba(0, 0, 0, .185);
+}
+
+.card_left img {
+    display: grid;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.card_left, .card_bottom, .card_right, .card_top h4 {
+    text-align: left;
+    color: hsl(234, 12%, 34%) ;
+}
+
+.card_left, .card_bottom, .card_right, .card_top p{
+    color:hsl(234, 12%, 34%);
+    font-weight: 200;
+    font-size: 15px;
+
+}
+
+.card_top{
+    margin: 15px;
+    padding: 25px;
+    width: 20em;
+    height: 13.5em;
+    background: #fff ;
+    border-top: solid 3px hsl(0, 78%, 62%);
+    border-radius: 8px;
+    box-shadow: 0em 0.5em 1em rgba(0, 0, 0, .185);
+    
+}
+.card_top img{
+    margin-left: auto;
+    margin-top: 20px;
+    display: grid;
+    
+}
+
+.card_bottom{
+    margin: 1.5em 1em;
+    padding: 1.5em;
+    width: 20em;
+    height: 13.5em;
+    background: #fff ;
+    border-top: solid 3px hsl(34, 97%, 64%);
+    border-radius: 8px;
+    box-shadow: 0em 0.5em 1em rgba(0, 0, 0, .185);
+}
+
+.card_bottom img {
+    display: grid;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+
+.card_right{
+    margin: 1.5em 1em;
+    padding: 1.5em;
+    width: 20em;
+    height: 13.5em;
+    background: #fff ;
+    border-top: solid 3px hsl(212, 86%, 64%);
+    border-radius: 8px;
+    box-shadow: 0em 0.5em 1em rgba(0, 0, 0, .185);
+}
+
+.card_right img {
+    display: grid;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+.card_right,.card_left{
+   align-self: center;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (max-width:480px)  {
+    .card_container{
+        display: grid;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-template-columns: 1fr;
+        margin-top: 15px;
+        
+
+    }
+    .card_container p {
+        font-size: 13px;
+    }
+    .card_container h4 {
+        font-size: 18px;
+    }
+    .slogan, .slogan span{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .base_line{
+        text-align: center;
+        font-size: 12px;
+    }
+}
