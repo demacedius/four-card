@@ -11,7 +11,11 @@ body{
     height: 100%;
    
 }
-
+.head_text{
+    text-align: center;
+    width: 100%;
+    height: 25vh;
+}
 .slogan{
     display: flex;
     align-items: center;
@@ -59,7 +63,7 @@ body{
 .card_left img {
     display: grid;
     margin-left: auto;
-    margin-top: 20px;
+    margin-top: .45em;
 }
 
 .card_left, .card_bottom, .card_right, .card_top h4 {
@@ -67,7 +71,7 @@ body{
     color: hsl(234, 12%, 34%) ;
 }
 
-.card_left, .card_bottom, .card_right, .card_top p{
+.card_left, .card_bottom, .card_right, .card_top {
     color:hsl(234, 12%, 34%);
     font-weight: 200;
     font-size: 15px;
@@ -87,7 +91,7 @@ body{
 }
 .card_top img{
     margin-left: auto;
-    margin-top: 20px;
+    margin-top: .45em;
     display: grid;
     
 }
@@ -105,7 +109,7 @@ body{
 
 .card_bottom img {
     display: grid;
-    margin-top: 20px;
+    margin-top: .45em;
     margin-left: auto;
 }
 
@@ -123,7 +127,7 @@ body{
 
 .card_right img {
     display: grid;
-    margin-top: 20px;
+    margin-top: .45em;
     margin-left: auto;
 }
 
@@ -135,7 +139,7 @@ body{
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media screen and (max-width:480px)  {
+@media screen and (max-width:992px)  {
     .card_container{
         display: grid;
         display: flex;
